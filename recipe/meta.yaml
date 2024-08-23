@@ -1,5 +1,5 @@
 {% set name = "types-aiobotocore-logs" %}
-{% set version = "2.13.2" %}
+{% set version = "2.13.3" %}
 {% set lib_version = version.split(".post")[0] %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 0cbb2c5f3d73aadb9acb038c4462215295af8a804b20657f05debc9f003b258d
+  sha256: 6823f81ecbcb7812d57a58b228c56d2280fcf4e6b7d396c9dbe8aed06546092c
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
