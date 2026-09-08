@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "3.9.0"
+  version: "3.9.1"
 
 package:
   name: types-aiobotocore-logs
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/types-aiobotocore-logs/types_aiobotocore_logs-${{ version }}.tar.gz
-  sha256: dd84b6306c05594616e3c1f6efb375958c40c630527bedbfa954b25d7b42d1b1
+  sha256: 63e2e2bd372b999d1a9b722890e3fe07d86558da7e2f7558e20ca0cfe7b7cabb
 
 build:
   number: 0
